@@ -1,9 +1,16 @@
+import Footer from '../components/Footer.jsx'
+import Hero from '../components/Hero.jsx'
+import Navbar from '../components/Navbar.jsx'
 import PageLayout from '../components/PageLayout.jsx'
+import Projects from '../components/Projects/Projects.jsx'
 
 export default function Home() {
   return (
-    <PageLayout title="Home">
-      <h1 className="text-3xl font-bold text-black">HEllO</h1>
+    <PageLayout title="Blagabo">
+      <Navbar />
+      <Hero />
+      <Projects />
+      <Footer />
     </PageLayout>
   )
 }

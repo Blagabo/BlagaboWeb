@@ -8,7 +8,7 @@ export default function PageLayout({children, title = 'Blagabo'}) {
         <meta name="description" content="Portfolio Blagabo" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>{children}</main>
+      <main className="bg-white dark:bg-gray-900">{children}</main>
     </>
   )
 }
